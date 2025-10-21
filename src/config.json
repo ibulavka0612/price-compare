@@ -1,0 +1,17 @@
+{
+  "site": {
+    "title": "Сравнение цен — Роботы и Очистители",
+    "base_url": "https://<your-username>.github.io/<repo-name>/"
+  },
+  "feeds": [
+    {
+      "type": "csv",
+      "url": "https://example.com/your-partner-feed1.csv"
+    },
+    {
+      "type": "csv",
+      "url": "https://example.com/your-partner-feed2.csv"
+    }
+  ],
+  "fallback_local_csv": "data/offers_sample.csv"
+}

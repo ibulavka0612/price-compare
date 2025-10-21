@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>{name} — цены и сравнение</title><link rel="stylesheet" href="../styles.css"/>
+<script type="application/ld+json">{json_ld}</script></head>
+<body><header><a href="../index.html">← Назад</a><h1>{name}</h1><p class="muted">{brand} {model}</p></header>
+<main class="container">
+<section><h2>Характеристики</h2><ul>{spec_lines}</ul></section>
+<section><h2>Предложения магазинов</h2>
+<table><thead><tr><th>Магазин</th><th>Наличие</th><th>Цена + доставка</th><th>Итого</th><th></th></tr></thead><tbody>{offer_rows}</tbody></table>
+</section></main></body></html>

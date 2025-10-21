@@ -1,0 +1,6 @@
+category,product_slug,product_name,brand,model,gtin,mpn,specs_json,merchant,price,currency,shipping,url,availability,updated_at
+robot_vacuum,roborock-s8,Roborock S8,Roborock,S8,6970995783456,,"{""suction_pa"":6000,""height_mm"":96,""runtime_min"":180}",DNS,74990,RUB,0,https://example.com/dns/roborock-s8,in_stock,2025-10-21T10:00:00Z
+robot_vacuum,roborock-s8,Roborock S8,Roborock,S8,6970995783456,,"{""suction_pa"":6000,""height_mm"":96,""runtime_min"":180}",Ситилинк,73990,RUB,399,https://example.com/citilink/roborock-s8,in_stock,2025-10-21T10:05:00Z
+robot_vacuum,dreame-l10s-ultra,Dreame L10s Ultra,Dreame,L10s Ultra,6973734682204,,"{""suction_pa"":5300,""height_mm"":97,""runtime_min"":210}",DNS,109990,RUB,0,https://example.com/dns/dreame-l10s-ultra,in_stock,2025-10-21T10:10:00Z
+air_purifier,philips-ac3033-10,Philips AC3033/10,Philips,AC3033/10,8710103970000,,"{""cadr_m3h"":380,""room_m2"":104,""filter"":""HEPA13""}",Ситилинк,34990,RUB,0,https://example.com/citilink/philips-ac3033-10,in_stock,2025-10-21T10:15:00Z
+air_purifier,philips-ac3033-10,Philips AC3033/10,Philips,AC3033/10,8710103970000,,"{""cadr_m3h"":380,""room_m2"":104,""filter"":""HEPA13""}",DNS,35990,RUB,0,https://example.com/dns/philips-ac3033-10,in_stock,2025-10-21T10:16:00Z

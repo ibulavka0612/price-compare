@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>{site_title}</title><link rel="stylesheet" href="styles.css"/></head>
+<body><header><h1>{site_title}</h1><p class="muted">Демо с автообновлением (GitHub Actions)</p></header>
+<main class="container">
+<input id="q" placeholder="Поиск по названию…" oninput="filterRows()" />
+<table id="list"><thead><tr><th>Категория</th><th>Товар</th><th>Офферы</th><th>От</th></tr></thead><tbody>{rows}</tbody></table>
+</main><footer>Данные обновляются по расписанию из CSV-фидов. &copy; {year}</footer>
+<script>
+function filterRows(){const q=document.getElementById('q').value.toLowerCase();
+document.querySelectorAll('#list tbody tr').forEach(tr=>{tr.style.display=tr.innerText.toLowerCase().includes(q)?'':'none';});}
+</script></body></html>
